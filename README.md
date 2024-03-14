@@ -22,7 +22,7 @@ The window is set up for 4:3 aspect ration with coordinates from -240 to 240 on 
 
 turtleGetMouseCoordinates() - puts the mouse coordinates in turtle.mouseX and turtle.mouseY variables, recommended to do at the beginning of your loop\
 turtleClear() - clear the screen\
-turtleGoto() - go to coordinates\
+turtleGoto(x, y) - go to coordinates\
 turtlePenDown() - start drawing\
 turtlePenUp() - stop drawing\
 turtleMouseDown() - returns 1 if the mouse is being held and 0 otherwise\
