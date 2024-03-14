@@ -2,12 +2,14 @@
 
 ### Compile (windows 64 bit):
 > gcc turtleExample.c -L./Windows -lglfw3 -lopengl32 -lgdi32 -lglad -lole32 -luuid -DOS_WINDOWS -o turtleExample.exe
+
 Then run turtleExample.exe\
 I've also included the 64-bit binary (turtleExample.exe) for convenience,\
 so you can just run that without compilation if you're on windows (and on a 64 bit machine)
 
 ### Compile (linux):
 > gcc turtleExample.c -L./Linux -lglfw3 -ldl -lm -lX11 -lglad -lGL -lGLU -lpthread -DOS_LINUX -o turtleExample.o
+
 Then run ./turtleExample.o
 
 ### This example
