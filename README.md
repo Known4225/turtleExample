@@ -16,11 +16,12 @@ Then run ./turtleExample.o
 This is a simple canvas example\
 Click and drag with the mouse to draw lines on the canvas\
 Press C to clear the canvas\
-The window is set up for 4:3 aspect ration with coordinates from -240 to 240 on the x and -180 to 180 on the y, just like scratch\
+The window is set up for 4:3 aspect ration with coordinates from -240 to 240 on the x and -180 to 180 on the y, just like scratch
 
 ### Turtle Commands
 
 turtleGetMouseCoordinates() - puts the mouse coordinates in turtle.mouseX and turtle.mouseY variables, recommended to do at the beginning of your loop\
+turtleClear() - clear the screen\
 turtleGoto() - go to coordinates\
 turtlePenDown() - start drawing\
 turtlePenUp() - stop drawing\
